@@ -1,0 +1,141 @@
+/*Header Section*/
+.acaheader {
+    width: 100%;
+    height: auto;
+  }
+  .bg {
+    background-color: #292c7d;
+  }
+  .learn3 {
+    margin-left: 175px;
+  }
+  .learn2 {
+    margin-left: 175px;
+  }
+  
+  #homeid1 {
+    margin-top: 40px;
+    height: 400px;
+  }
+  #homeid {
+    margin-top: 40px;
+    height: auto;
+  }
+  .text5 {
+    padding: 0px !important;
+  }
+  .banner3 {
+    margin-top: 8px;
+    color: #636161;
+  }
+  
+  .banner3 h1 {
+    margin: 30px 0 40px;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .banner3 p {
+    font-size: 24px;
+    text-align: justify;
+  }
+  
+  /*.banner img {
+  max-height: 500px;
+  }*/
+  @media (max-width: 375px) {
+    .banner3 a {
+      padding: 15px 13px;
+    }
+    #socialmedia a {
+      margin-left: -5px !important;
+      font-size: 0px !important;
+      color: #292c7d;
+    }
+    #socialmedia1 a {
+      margin-left: -5px !important;
+      font-size: 0px !important;
+      color: #292c7d;
+    }
+  }
+  
+  .banner3 a {
+    padding: 15px 13px;
+    display: inline-block;
+    color: black;
+    border: 1px solid #6900d1;
+    text-align: center;
+    /* margin-top: 25px; */
+    /* margin-left: 10px; */
+    font-weight: 300;
+    margin: 8px 8px;
+    font-family: "Montserrat", arial;
+  }
+  .banner3 a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #6900d1;
+    padding: 15px 13px;
+  }
+  .owl-carousel .owl-stage-outer {
+    height: 180px;
+  }
+  /*.banner2 {
+  position: absolute;
+  bottom: 174px;
+  left: 300px;
+  }*/
+  @media screen and (max-width: 500px) {
+    .tophead2 {
+      text-align: center;
+      margin-top: 20px !important;
+    }
+    .tophead1 {
+      text-align: center !important;
+    }
+    .imgwidth {
+      width: 85%;
+      float: right;
+    }
+    .accordion {
+      width: 95% !important;
+    }
+    #homeid h1 {
+      font-size: 30px !important;
+      margin-top: -30px !important;
+    }
+    #homeid1 h1 {
+      font-size: 30px !important;
+      margin-top: -30px !important;
+    }
+  
+    .first {
+      margin: 0px;
+    }
+    .banner3 h1 {
+      margin: -40px 0 30px 0px !important;
+      font-weight: 600 !important;
+      font-size: 35px !important;
+      text-align: center;
+    }
+    .banner3 img {
+      margin-top: -40px;
+    }
+  
+    .banner3 p {
+      font-size: 20px !important;
+      text-align: justify;
+      padding: 0px 5px;
+      margin-top: -10px;
+    }
+    /* .banner3 a{ */
+    /* padding: 15px 20px; */
+    /* margin-left: 22px; */
+    /* } */
+  }
+  .header-section {
+    min-height: 60vh;
+  }
+/*Header section ends*/

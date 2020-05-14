@@ -1,0 +1,28 @@
+.link-nav-index:hover {
+    color: #e49230 !important;
+  }
+
+  .item-drop-cons:hover {
+    background-color: rgba(76, 175, 80, 1);
+    color: white;
+    transition-duration: 1s;
+  }
+  .trans:hover {
+    transform: translateY(20px);
+  }
+  .divider-drop-cons {
+    margin: 0px !important;
+  }
+  .dropdown-menus {
+    padding: 0px !important;
+  }
+  .item-drop-cons {
+    padding: 10px !important;
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

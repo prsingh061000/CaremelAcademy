@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "CaremelAcademy"
+    }
+  },
+  "defaultProject": "CaremelAcademy",
+  "cli": {
+    "analytics": "e24312ec-7ade-4575-be7b-17c97698e13c"
+  }
 }
