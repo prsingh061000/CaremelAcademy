@@ -3,6 +3,10 @@
     width: 100%;
     height: auto;
   }
+  .stbut{
+    width: 30%;
+    text-align: center;
+  }
   .bg {
     background-color: #292c7d;
   }
@@ -139,3 +143,90 @@
     min-height: 60vh;
   }
 /*Header section ends*/
+.carousel-caption {
+  position: absolute;
+  top: 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  left: 0px;
+  height: 100%;
+  z-index: 1;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  /* position: relative;*/
+  /*filter: grayscale(80%);*/
+}
+/*.overlay-img{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+  z-index:-3;
+}*/
+.head-content-base h1 {
+  font-size: 4em;
+  color: white;
+}
+.content-base-btn {
+  color: white;
+  border-radius: 25px;
+  border: none;
+  background-color: blue;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 15px 30px;
+}
+.content-base-btn:hover {
+  background-color: rgba(255, 183, 77, 1);
+  color: white;
+  text-decoration: none;
+}
+.margin-bott-text {
+  margin-bottom: 80px !important;
+}
+.diff-color {
+  background-color: #e49230;
+}
+.diff-color:hover {
+  background-color: blue;
+}
+
+/*Service Sec starts*/
+.services-section {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  background: rgba(236, 239, 241, 1);
+  border-radius: 0 0 40% 40%;
+}
+.card-serv {
+  border: none;
+  border-radius: 25px;
+}
+.card-serv:hover {
+  transform: translateY(-20px);
+  transition-duration: 0.5s;
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*Service Sec ends*/
+
+/*Certificate section*/
+.card-cert img:hover {
+  border-radius: 25px;
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  transform: translateY(20px);
+  transition-duration: 0.5s;
+}
+/*Partner Section*/
+.jumb-intro {
+  background-image: linear-gradient(
+    160deg,
+    rgba(236, 239, 241, 1) 55%,
+    #fff 50%
+  );
+}

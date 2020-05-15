@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { NavbarComponent } from '../navbar/navbar.component'
+import { NavbarComponent } from '../navbar/navbar.component';
 import { FooterComponent } from '../footer/footer.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { MatButtonModule} from '@angular/material/button'
 
 @Component({
   selector: 'app-homepage',

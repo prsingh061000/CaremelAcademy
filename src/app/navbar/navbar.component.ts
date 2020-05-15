@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { Routes, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
